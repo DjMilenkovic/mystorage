@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 1,
+    "Name": "Eurocrem",
+    "Description": "100g - Krem",
+    "Category": "Slatkis",
+    "Manufacturer": "Swisslion - Takovo",
+    "Supplier": "Swisslion - Takovo",
+    "Price": 125.0
+  },
+  {
+    "Id": 2,
+    "Name": "Choco banana",
+    "Description": "10g Cokoladna banana",
+    "Category": "Slatkis",
+    "Manufacturer": "Swisslion - Takovo",
+    "Supplier": "Swisslion - Takovo",
+    "Price": 10.0
+  },
+  {
+    "Id": 3,
+    "Name": "Lampa",
+    "Description": "Stona lampa",
+    "Category": "Akcesoari",
+    "Manufacturer": "N/A",
+    "Supplier": "N/A",
+    "Price": 1500.0
+  },
+  {
+    "Id": 4,
+    "Name": "Majonez",
+    "Description": "100g",
+    "Category": "Dodatak jelu",
+    "Manufacturer": "Dijamant",
+    "Supplier": "Dijamant",
+    "Price": 125.0
+  },
+  {
+    "Id": 5,
+    "Name": "Laptop",
+    "Description": "Prenosni racunar",
+    "Category": "Elektronski uredjaji",
+    "Manufacturer": "Lenovo",
+    "Supplier": "Lenovo",
+    "Price": 50000.0
+  },
+  {
+    "Id": 6,
+    "Name": "Ostvari svoj cilj",
+    "Description": "Kako ostvariti svoj cilj u 10 koraka",
+    "Category": "Knjiga",
+    "Manufacturer": "Laguna",
+    "Supplier": "Laguna",
+    "Price": 755.0
+  }
+]
