@@ -38,8 +38,13 @@ namespace MyStorage.Controllers
         }
 
         [HttpPost]
-        public ActionResult Save(Product product)
+        public ActionResult Save([Bind(Exclude = "Id")] Product product)
         {
+            if (!ModelState.IsValid)
+            {
+                return View("Index", product);
+            }
+
             if (product.Id == 0)
             {
                 productRepository.Add(product);

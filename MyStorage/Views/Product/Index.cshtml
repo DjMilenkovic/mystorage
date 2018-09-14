@@ -12,26 +12,32 @@
     <div class="form-group">
         @Html.LabelFor(p => p.Name)
         @Html.TextBoxFor(p => p.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p=>p.Name)
     </div>
     <div class="form-group">
         @Html.LabelFor(p => p.Description)
         @Html.TextBoxFor(p => p.Description, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Description)
     </div>
     <div class="form-group">
         @Html.LabelFor(p => p.Category)
         @Html.TextBoxFor(p => p.Category, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Category)
     </div>
     <div class="form-group">
         @Html.LabelFor(p => p.Manufacturer)
         @Html.TextBoxFor(p => p.Manufacturer, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Manufacturer)
     </div>
     <div class="form-group">
         @Html.LabelFor(p => p.Supplier)
         @Html.TextBoxFor(p => p.Supplier, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Supplier)
     </div>
     <div class="form-group">
         @Html.LabelFor(p => p.Price)
         @Html.TextBoxFor(p => p.Price, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p=>p.Price)
     </div>
     @Html.HiddenFor(p => p.Id)
     <button type="submit" class="btn btn-primary">Save</button>
