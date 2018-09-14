@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MyStorage.Models;
+using MyStorage.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,23 +10,17 @@ namespace MyStorage.Controllers
 {
     public class HomeController : Controller
     {
+        IRepository<Product> productRepository;
+
+        public HomeController(IRepository<Product> repository)
+        {
+            productRepository = repository;
+        }
         public ActionResult Index()
         {
-            return View();
-        }
+            var product = productRepository.GetProducts();
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return View(product);
         }
     }
 }

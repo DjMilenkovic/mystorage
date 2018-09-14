@@ -1,14 +1,5 @@
 [
   {
-    "Id": 1,
-    "Name": "Eurocrem",
-    "Description": "100g - Krem",
-    "Category": "Slatkis",
-    "Manufacturer": "Swisslion - Takovo",
-    "Supplier": "Swisslion - Takovo",
-    "Price": 125.0
-  },
-  {
     "Id": 2,
     "Name": "Choco banana",
     "Description": "10g Cokoladna banana",
@@ -45,12 +36,30 @@
     "Price": 50000.0
   },
   {
+    "Id": 1,
+    "Name": "Eurocrem",
+    "Description": "100g - Krem",
+    "Category": "Slatkis",
+    "Manufacturer": "Swisslion - Takovo",
+    "Supplier": "Swisslion - Takovo",
+    "Price": 130.0
+  },
+  {
     "Id": 6,
     "Name": "Ostvari svoj cilj",
     "Description": "Kako ostvariti svoj cilj u 10 koraka",
     "Category": "Knjiga",
     "Manufacturer": "Laguna",
     "Supplier": "Laguna",
-    "Price": 755.0
+    "Price": 760.0
+  },
+  {
+    "Id": 7,
+    "Name": "Rosa 0.5l",
+    "Description": "Voda Rosa 0.5l",
+    "Category": "Voda",
+    "Manufacturer": "Coca-Cola",
+    "Supplier": "Coca-Cola",
+    "Price": 50.0
   }
 ]
